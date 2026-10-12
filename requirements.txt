@@ -1,0 +1,3 @@
+PySide6>=6.6
+numpy>=1.24
+# stdlib urllib is used for scraping and LLM HTTP; no 'requests' dependency.

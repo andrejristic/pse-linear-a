@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <rect width="128" height="128" rx="22" fill="#14171c"/>
+  <circle cx="64" cy="64" r="40" fill="none" stroke="#3f9cff" stroke-width="3" opacity="0.5"/>
+  <!-- stylized Linear A double-axe / sign motif -->
+  <path d="M64 30 L74 50 L64 46 L54 50 Z" fill="#e0a030"/>
+  <path d="M40 64 L60 74 L56 64 L60 54 Z" fill="#8ad" />
+  <path d="M88 64 L68 74 L72 64 L68 54 Z" fill="#8ad" />
+  <path d="M64 98 L74 78 L64 82 L54 78 Z" fill="#e0a030"/>
+  <circle cx="64" cy="64" r="6" fill="#eaf2ff"/>
+  <text x="64" y="118" font-family="monospace" font-size="12" fill="#7f8ea3"
+        text-anchor="middle">PSE · A</text>
+</svg>

@@ -1,0 +1,15 @@
+{
+  "_comment": "Copy to ~/.config/pse-linear-a/config.json and fill in keys you have.",
+  "keys": {
+    "claude": "",
+    "mistral": "",
+    "groq": ""
+  },
+  "models": {
+    "claude": "claude-opus-4-8",
+    "mistral": "mistral-large-latest",
+    "groq": "llama-3.3-70b-versatile",
+    "local_gguf": "local-model"
+  },
+  "_local_gguf": "local GGUF uses LM Studio's OpenAI-compatible server at http://localhost:1234/v1"
+}

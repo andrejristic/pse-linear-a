@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=PSE Linear A
+Comment=Partial Self-Extension swarm to get closer to reading Linear A
+Exec=pse-linear-a
+Icon=pse-linear-a
+Terminal=false
+Categories=Education;Science;Utility;
+Keywords=Linear A;Minoan;decipherment;epigraphy;PSE;
