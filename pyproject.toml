@@ -1,0 +1,22 @@
+[project]
+name = "pse-linear-a"
+version = "0.1.0"
+description = "Partial Self-Extension swarm to get closer to reading Linear A."
+readme = "README.md"
+license = "GPL-3.0-or-later"
+authors = [{ name = "Andrej Ristic" }]
+requires-python = ">=3.10"
+dependencies = ["PySide6>=6.6", "numpy>=1.24"]
+
+[project.gui-scripts]
+pse-linear-a = "pse_linear_a.gui.app:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["pse_linear_a*"]
+
+[tool.setuptools.package-data]
+pse_linear_a = ["**/*.json", "**/*.txt", "**/*.csv"]

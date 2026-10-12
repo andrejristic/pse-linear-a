@@ -15,7 +15,14 @@ from pathlib import Path
 
 from .. import constants as K
 
-CONFIG_PATH = Path.home() / ".config" / "pse-linear-a" / "config.json"
+def _config_dir() -> Path:
+    import os, sys
+    if sys.platform == "win32":
+        return Path(os.environ.get("APPDATA", Path.home() / "AppData" / "Roaming")) / "pse-linear-a"
+    return Path(os.environ.get("XDG_CONFIG_HOME", Path.home() / ".config")) / "pse-linear-a"
+
+
+CONFIG_PATH = _config_dir() / "config.json"
 
 DEFAULT_MODELS = {
     "claude": "claude-opus-4-8",
